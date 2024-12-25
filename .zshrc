@@ -63,7 +63,6 @@ alias c='clear'
 alias v='nvim'
 alias e='exit'
 
-
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
