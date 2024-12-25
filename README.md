@@ -18,26 +18,38 @@ this repository is a personal dotfiles management remote git repository powered 
 ### dependencies to install **Stow**:
 
 - Using [Brew](https://brew.sh/) for windows and mac:
-```brew install stow```
+```
+brew install stow
+```
 
 - Using Pacman for Arch Users :
-```sudo pacman -S stow```
+```
+sudo pacman -S stow
+```
 
 - Using apt on Ubuntu :
-```sudo apt install stow```
+```
+sudo apt install stow
+```
 
 
 To install the following dotfiles, clone the into your home directory
-```git clone --depth 1 https://github.com/TheFatCatDev/dotfiles ${XDG_DATA_HOME}```
+```
+git clone --depth 1 https://github.com/TheFatCatDev/dotfiles ${XDG_DATA_HOME}
+```
 
 ---
 
 ## Setting up symlinks :
 After completing the above process, just *cd* into the **dotfiles** repository:
-```cd ~/dotfiles```
+```
+cd ~/dotfiles
+```
 
 and start stow:
-```stow .```
+```
+stow .
+```
 
 ---
 
