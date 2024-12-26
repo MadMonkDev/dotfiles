@@ -40,8 +40,6 @@ return {
 			lspconfig.phpactor.setup({ capabilities = capabilities })
 			lspconfig.opencl_ls.setup({ capabilities = capabilities })
 			lspconfig.glsl_analyzer.setup({ capabilities = capabilities })
-			-- lspconfig.asm_lsp.setup({ capabilities = capabilities })   -- add asm_lsp to ensure installed
-			-- lspconfig.jinja_lsp.setup({ capabilities = capabilities })  -- add jinja_lsp to ensure insatalled
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "sd", vim.lsp.buf.definition, {})
 			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
