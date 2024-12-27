@@ -62,6 +62,7 @@ alias vim='nvim'
 alias c='clear'
 alias v='nvim'
 alias e='exit'
+alias t='tmux'
 
 # Shell integrations
 eval "$(fzf --zsh)"
