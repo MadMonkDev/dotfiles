@@ -10,7 +10,9 @@ fi
 source "${ZINIT_HOME}/zinit.zsh"
 
 # Loading Fastfetch for system information:
-fastfetch -c ~/.config/fastfetch/config.jsonc
+if [ -z "$TMUX" ]; then
+    fastfetch
+fi
 
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
