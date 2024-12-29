@@ -5,7 +5,8 @@ this repository is a personal dotfiles management remote git repository powered 
 
 ### This repository includes Packages \(dotfiles / config files) for :
 - <a href="https://github.com/neovim/neovim" ><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Neovim-logo.svg" alt="Neovim" height="30" ></a>
-- <a href="https://github.com/kovidgoyal/kitty"><img src = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kitty%28Terminal-emulator%29.png" alt = "Kitty" height="30"></a> 
+- <a href="https://github.com/kovidgoyal/kitty"><img src = "https://upload.wikimedia.org/wikipedia/commons/2/2f/Kitty%28Terminal-emulator%29.png" alt = "Kitty" height="30"></a>
+- <a href="https://github.com/tmux/tmux"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Tmux_logo.png" alt = "tmux" height="30" /> </a>
 - <a href = "https://www.zsh.org/"><img src="https://cdn.pixabay.com/photo/2022/05/03/17/44/zsh-7172334_960_720.png" height="30"></a> 
 - [FastFetch](https://github.com/fastfetch-cli/fastfetch).
 - [Rofi](https://github.com/davatorium/rofi).
