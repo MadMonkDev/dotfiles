@@ -9,6 +9,10 @@ fi
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
+# PATHs / ENVIROMENT VARIABLES :
+export PATH="$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH"
+export EDITOR=nvim
+
 # Loading Fastfetch for system information:
 if [ -z "$TMUX" ]; then
     fastfetch
@@ -69,3 +73,5 @@ alias t='tmux'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
+eval "$(tmuxifier init -)"
+
