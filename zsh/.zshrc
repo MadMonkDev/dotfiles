@@ -1,20 +1,20 @@
-# Set the directory we want to store zinit and plugins
+# Setting up zinit : 
+## Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
-# Download Zinit, if it's not there yet
+## Download Zinit, if it's not there yet
 if [ ! -d "$ZINIT_HOME" ]; then
    mkdir -p "$(dirname $ZINIT_HOME)"
    git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 fi
-
-# Source/Load zinit
+## Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 
 # PATHs / ENVIROMENT VARIABLES :
 export PATH="$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH"
 export EDITOR=nvim
 
-# Loading Fastfetch for system information:
-if [ -z "$TMUX" ]; then
+# Loading Fastfetch for system information: (the following code will only run fastfetch if we are not in a tmux session) 
+if [ -z "$TMUX"]; then
     fastfetch
 fi
 
@@ -74,4 +74,3 @@ alias t='tmux'
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
 eval "$(tmuxifier init -)"
-
