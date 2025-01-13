@@ -14,7 +14,7 @@ export PATH="$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH"
 export EDITOR=nvim
 
 # Loading Fastfetch for system information: (the following code will only run fastfetch if we are not in a tmux session) 
-if [ -z "$TMUX"]; then
+if [ -z "$TMUX" ]; then
     fastfetch
 fi
 
