@@ -36,7 +36,7 @@ sudo apt install stow
 
 To install the following dotfiles, clone the into your home directory
 ```
-git clone --depth 1 https://github.com/TheFatCatDev/dotfiles ${XDG_DATA_HOME}
+git clone --depth 1 https://github.com/MadMonkDev/dotfiles ${XDG_DATA_HOME}
 ```
 
 ---
