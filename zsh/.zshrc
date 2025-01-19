@@ -69,6 +69,8 @@ alias c='clear'
 alias v='nvim'
 alias e='exit'
 alias t='tmux'
+alias nf='fastfetch'
+alias ff='fastfetch'
 
 # Shell integrations
 eval "$(fzf --zsh)"
