@@ -15,6 +15,7 @@ return {
 					"arduino_language_server",
 					"bashls",
 					"ast_grep",
+          "zls",
 					"tailwindcss",
 					"dockerls",
 					"grammarly",
@@ -44,6 +45,7 @@ return {
 			lspconfig.opencl_ls.setup({ capabilities = capabilities })
 			lspconfig.glsl_analyzer.setup({ capabilities = capabilities })
 			lspconfig.clangd.setup({ capabilities = capabilities })
+			lspconfig.zls.setup({ capabilities = capabilities })
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "sd", vim.lsp.buf.definition, {})
 			vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
