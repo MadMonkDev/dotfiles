@@ -5,3 +5,4 @@ vim.cmd("set shiftwidth=2")
 vim.cmd("set autoindent")
 vim.g.mapleader = ' '
 vim.wo.number = true
+vim.wo.relativenumber = true
