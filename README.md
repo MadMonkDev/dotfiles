@@ -8,14 +8,14 @@ This repository is a personal dotfiles management system powered by [GNU Stow](h
 
 This repository includes dotfiles/configs for the following packages:
 
-* <a href="https://github.com/neovim/neovim"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Neovim-logo.svg" alt=".[Neovim](https://github.com/neovim/neovim)" height="30"></a> Neovim
-* <a href="https://github.com/kovidgoyal/kitty"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Kitty%28Terminal-emulator%29.png" alt=".[Kitty](https://github.com/kovidgoyal/kitty)" height="30"></a> Kitty
-* <a href="https://github.com/tmux/tmux"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Tmux_logo.png" alt=".[tmux](https://github.com/tmux/tmux)" height="30"></a> Tmux
-* <a href="https://www.zsh.org/"><img src="https://cdn.pixabay.com/photo/2022/05/03/17/44/zsh-7172334_960_720.png" alt=".[Zsh](https://www.zsh.org/)" height="30"></a> Zsh
+* <a href="https://github.com/neovim/neovim"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Neovim-logo.svg" alt=".[Neovim](https://github.com/neovim/neovim)" height="30"></a> 
+* <a href="https://github.com/kovidgoyal/kitty"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Kitty%28Terminal-emulator%29.png" alt=".[Kitty](https://github.com/kovidgoyal/kitty)" height="30"></a>
+* <a href="https://github.com/tmux/tmux"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Tmux_logo.png" alt=".[tmux](https://github.com/tmux/tmux)" height="30"></a> 
+* <a href="https://www.zsh.org/"><img src="https://cdn.pixabay.com/photo/2022/05/03/17/44/zsh-7172334_960_720.png" alt=".[Zsh](https://www.zsh.org/)" height="30"></a> 
 * [FastFetch](https://github.com/fastfetch-cli/fastfetch)
-* <a href="https://github.com/davatorium/rofi/"><img src="https://b.thumbs.redditmedia.com/wsT0qW4NMACMOYCKlaShhcW6_abGbtUYhx51rIyHvNk.png"></a> .[Rofi](https://github.com/davatorium/rofi/)
+* <a href="https://github.com/davatorium/rofi/"><img src="https://b.thumbs.redditmedia.com/wsT0qW4NMACMOYCKlaShhcW6_abGbtUYhx51rIyHvNk.png" alt=".[Rofi](https://github.com/davatorium/rofi/)" height="30"></a> 
 * [Hyprland](https://github.com/hyprwm/Hyprland)
-* <a href="https://ghostty.org/"><img src="https://ghostty.org/_next/static/media/ghostty-wordmark.6a43fa21.svg" alt="[Ghostty](https://github.com/mitchellh/ghostty)" height="30"></a> Ghostty
+* <a href="https://ghostty.org/"><img src="https://ghostty.org/_next/static/media/ghostty-wordmark.6a43fa21.svg" alt="[Ghostty](https://github.com/mitchellh/ghostty)" height="30"></a> 
 * [Waybar](https://github.com/Alexays/Waybar)
 
 ---
