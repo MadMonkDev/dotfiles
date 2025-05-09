@@ -12,6 +12,8 @@ source "${ZINIT_HOME}/zinit.zsh"
 # PATHs / ENVIROMENT VARIABLES :
 export PATH="$HOME/.config/tmux/plugins/tmuxifier/bin:$PATH"
 export EDITOR=nvim
+# export TMUXIFIER_PATH="${XDG_DATA_HOME:-${HOME}}/.config/tmux/.tmuxifier"
+# source "$TMUXIFIER_PATH/init.zsh"
 
 # Loading Fastfetch for system information: (the following code will only run fastfetch if we are not in a tmux session) 
 if [ -z "$TMUX" ]; then
@@ -75,4 +77,4 @@ alias ff='fastfetch'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
-eval "$(tmuxifier init -)"
+# eval "$(tmuxifier init -)"
